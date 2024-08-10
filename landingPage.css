@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(344, 18%, 70%, 0.7);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width:24%;
+   /* background-color: red;*/
+}
+#part2{
+   
+    height:100%;
+    width: 69%;
+    background-color: rgba(0 208 255);
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vZGVsfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(161, 145, 149, 0.5);
+}
+#part3{
+    height: 100%;
+    width:7%;
+   /* background-color: green;*/
+}
+#text-div{
+   height: 300px;
+   width: 400px;
+   /*background-color: red;*/
+   position: absolute;
+   left: 7%;
+   top: 50%;
+   transform: translate(0, -50%);
+}
+#text-div h1{
+    font-size: 60px;
+    font-family: monument;
+    font-weight: 900px;
+    letter-spacing: 8px;
+    line-height: 58px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1534008757030-27299c4371b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+#vertical-text{
+    position: absolute;
+    right: -66%;
+    top: -7%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+}
+
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-color: #fff;
+}
+
+#nav{
+    position: absolute;
+    width: 450px;
+    display: flex;
+    left: 7%;
+    top: 5%;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nav h5{
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy; 
+}
